@@ -339,7 +339,7 @@ class Archive
                 return EndianSwapper::SwapByte<T, sizeof(T)>::Swap(v);
             }
 
-    private:
+    public:
         STREAM_TYPE& m_stream;
 };
 
